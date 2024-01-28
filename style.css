@@ -1,0 +1,50 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f6f6f6; /* Light gray background color */
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff; /* White background color */
+    padding: 40px;
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+h3 {
+    color: #333333; /* Dark gray text color */
+    font-size: 2em; /* Larger font size */
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.joke {
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 1.5em;
+    background-color: #f9f9f9; /* Lighter gray background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    border-radius: 10px; /* Slightly rounded corners */
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1em;
+    background-color: #4CAF50; /* Green background color */
+    color: #ffffff; /* White text color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+.btn:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
